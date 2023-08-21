@@ -1,21 +1,24 @@
 Go client library for OSRM
 ==========================
 
-[![GoDoc](https://godoc.org/github.com/gojuno/go.osrm?status.svg)](http://godoc.org/github.com/gojuno/go.osrm)
+[![GoDoc](https://godoc.org/github.com/vc2402/go.osrm?status.svg)](http://godoc.org/github.com/vc2402/go.osrm)
 [![Build Status](https://travis-ci.org/gojuno/go.osrm.svg?branch=master)](https://travis-ci.org/gojuno/go.osrm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gojuno/go.osrm)](https://goreportcard.com/report/github.com/gojuno/go.osrm)
 [![codecov](https://codecov.io/gh/gojuno/go.osrm/branch/master/graph/badge.svg)](https://codecov.io/gh/gojuno/go.osrm)
 
 ## Description
 
+Forked from georgiosB/go.osrm (his pull request with implementation of Trip service still is open in gojuno/go.osrm repository)
+
+
 Currently supported OSRM APIs are:
 - [Route service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#route-service)
 - [Table service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#table-service)
 - [Match service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#match-service)
 - [Nearest service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#nearest-service)
+- [Trip service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#trip-service)
 
 Not implemeted yet:
-- [Trip service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#trip-service)
 - [Tile service](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#tile-service)
 
 ## Usage
